@@ -21,7 +21,6 @@ BUTTON = InlineKeyboardMarkup([[
          InlineKeyboardButton("🖥️ How To Own This Bot 🖥️", url=support)
          ]]
          )
-         )
 
 
 @Client.on_message(Filters.command(["start"]))
