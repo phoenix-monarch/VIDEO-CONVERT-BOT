@@ -5,7 +5,7 @@ class Translation(object):
 
       START = """Hello {0}
 
-I am a converter clone of [Convert Ns Bot](https://telegram.dog/convert_Ns_bot) by {1}
+I am a converter clone of [MT Convert Bot](https://telegram.dog/mT_convert_bot) by {1}
 
 I can convert file to video or video to file with custom thumbnail support.
 """
@@ -22,8 +22,6 @@ I can convert file to video or video to file with custom thumbnail support.
 3. Reply to video /converttofile for converting into file.
 
 4. Reply to file /converttovideo for converting into video.
-
-**SUPPORT GROUP:** [NS Bot Supporters](https://telegram.dog/Ns_Bot_supporters)
 """
 
 
@@ -36,11 +34,11 @@ I can convert file to video or video to file with custom thumbnail support.
 
 **👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)
 
-**📮 Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+**📮 Channel:** [MT BOT UPDATES](https://t.me/)
 
-**👥 Group:** [NS BOT SUPPOTERS](https://t.me/Ns_Bot_supporters)
+**👥 Group:** [MT BOT SUPPOTERS](https://t.me/Mo_Tech_Group)
 
-**💻 Source Code:**[Press Me](https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT)
+**💻 Source Code:**[Press Me](https://t.me/Mo_Tech_Group)
 
 """
 
@@ -52,7 +50,7 @@ I can convert file to video or video to file with custom thumbnail support.
 #If you set the password for the bot if anyone use the bot without logging in this text will appear
 
       NOT_LOGGED_TEXT = """ This bot was a private bot you need to login using the password.
-For logging in use command <code>/login BotPassword</code>. And then use me 🥰"""
+For logging in use command <code>/login Bot Password</code>. And then use me 🥰"""
 
 
 #This will be sent to the user when the user logged successfully
