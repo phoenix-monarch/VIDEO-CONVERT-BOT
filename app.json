@@ -10,7 +10,7 @@
   "logo": "https://telegra.ph/file/7f3b556164324610e21a6.jpg",
   "success_url": "https://telegram.dog/convert_Ns_bot",
   "website": "https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT",
-  "repository": "https://github.com/Ns-AnoNymouS/TG-CONVERT-BOT",
+  "repository": "https://github.com/MRK-YT/MT-CONVERT-BOT",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -21,8 +21,8 @@
       "value": ""
     },
     "USER_NAME": {
-      "description": "Your name like @NS_AnoNymouS",
-      "value": "@NS_AnoNymouS"
+      "description": "Your name like @Mrk_YT",
+      "value": "@Mrk_YT"
     },
     "BOT_PASSWORD": {
       "description": "Password for using this bot. If you don't set any password bot can be used as public",
@@ -30,16 +30,16 @@
       "required": false
     },
     "APP_ID": {
-      "description": "Get this value from https://my.telegram.org",
+      "description": "Get this value from https://my.telegram.org or @MT_MytelegramOrg_Bot",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
+      "description": "Get this value from https://my.telegram.org or @MT_MytelegramOrg_Bot",
       "value": ""
     },
     "AUTH_USERS": {
-      "description": "allow only pre-defined users to use this bot",
-      "value": "1337144652"
+      "description": "allow only pre-defined users to use this bot @Mt_Id_Bot",
+      "value": "1233567890"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
