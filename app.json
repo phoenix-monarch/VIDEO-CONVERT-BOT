@@ -31,13 +31,11 @@
     },
     "SHOW_PASSOWRD": {
       "description": "Show Passowrd",
-      "value": "",
-      "required": false
+      "value": "ഇപ്പോകിട്ടും🙃"
     },
     "UPDATE_CHANNEL": {
       "description": "Your Update Channel Username ( With Out @)",
-      "value": "Mo_Tech_YT",
-      "required": false
+      "value": "Mo_Tech_YT"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org or @MT_MytelegramOrg_Bot",
