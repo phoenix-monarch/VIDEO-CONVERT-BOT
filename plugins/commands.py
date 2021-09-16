@@ -36,7 +36,7 @@ async def start(c, m):
     logger.info(f"{m.from_user.first_name} used start command")
 
 @Client.on_message(Filters.private & Filters.command("password"))
-async def password(motech, update):
+async def password(motech, m):
     update_channel = UPDATE_CHANNEL
     if update_channel:
         try:
@@ -58,7 +58,7 @@ async def password(motech, update):
             return  
     reply_markup =  PASS_BUTTON
     await update.reply_text(
-        text=Translation.PASSWORD.format(update.from_user.mention, PASS_TEXT),
+        text=Translation.PASSWORD.format(m.from_user.first_name, PASS_TEXT),
         disable_web_page_preview=True,
         reply_markup=reply_markup
   )
