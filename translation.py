@@ -112,5 +112,5 @@ ETA 🕰: {4}
       DEL_ETED_CUSTOM_THUMB_NAIL = "Thumbnail Deleted Successfully ✅"
       PASSWORD = """👋Hey {}
 
-Passowrd :- <code>{}</code>
+Passowrd :- {}
 """
