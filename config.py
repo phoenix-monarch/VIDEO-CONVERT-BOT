@@ -11,6 +11,9 @@ class Config(object):
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     OUO_IO_API_KEY = ""
     MAX_MESSAGE_LENGTH = 4096
-    BOT_PWD = os.environ.get("BOT_PASSWORD", "")
+    BOT_PWD = os.environ.get("SET_PASSWORD", "")
     LOGGED_USER = []
     DB_URI = os.environ.get("DATABASE_URL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "mo_Tech_YT")
+    PASS_TEXT = os.environ.get("SHOW_PASSWORD", "Mo Tech")
+
