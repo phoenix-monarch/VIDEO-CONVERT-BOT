@@ -13,7 +13,19 @@ I can convert file to video or video to file with custom thumbnail support.
 
 #This will be appeared when anyone use help command
 
-      HELP = """**Hey you need help 🤔 ?**
+      HELP = """
+<u>BASIC COMMADS</u>
+
+/start - Check Im Alive.
+/help - More Information
+/about - About Bot & Me
+/Password - Get bot Passowrd
+/login - Use
+/converttofile - Convert File
+/converttovideo - Convert Video
+
+**Hey you need help 🤔 ?**
+
 
 1. Send me the telegram file or video which you wanted to convert.
 
