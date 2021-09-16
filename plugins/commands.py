@@ -10,16 +10,18 @@ from pyrogram.errors import UserNotParticipant
 from translation import Translation
 from Tools.Download import download
 
-
+UPDATE_CHANNEL=Config.UPDATE_CHANNEL
 
 my_father = "https://t.me/{}".format(Config.USER_NAME[1:])
 support = "https://telegram.dog/Mo_Tech_YT"
+
+LINK = "https://telegram.dog/Mo_Tech_YT"
 
 BUTTON = InlineKeyboardMarkup([[
          InlineKeyboardButton("My Father 👨‍💻", url=my_father),
          InlineKeyboardButton("📌Support channel", url=support)
          ],[
-         InlineKeyboardButton("🖥️ How To Own This Bot 🖥️", url=support)
+         InlineKeyboardButton("🖥️ How To Own This Bot 🖥️", url=f"{LINK}")
          ]]
          )
 
@@ -65,13 +67,17 @@ async def password(motech, update):
         except Exception:
             await update.reply_text(f"@{UPDATE_CHANNEL}")
             return  
-    reply_markup =  START_BUTTON
+    reply_markup =  PASS_BUTTON
     await update.reply_text(
         text=Translation.PASSWORD.format(update.from_user.mention, PASS_TEXT),
         disable_web_page_preview=True,
         reply_markup=reply_markup
   )
 
+PASS_BUTTON = InlineKeyboardMarkup([[
+         InlineKeyboardButton("How To Own", url=f"{LINK}")
+         ]]
+         )
 
 @Client.on_message(Filters.command(["about"]))
 async def about(c, m):
