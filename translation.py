@@ -98,3 +98,7 @@ ETA 🕰: {4}
       BANNED_TEXT = "YOU ARE BANNED. SO YOUR ARE NOT ABLE TO USE ME 🐒"
       REPLY_TEXT = "👩‍✈️ Reply to the media which you need to convert"
       DEL_ETED_CUSTOM_THUMB_NAIL = "Thumbnail Deleted Successfully ✅"
+      PASSWORD = """👋Hey {}
+
+Passowrd :- <code>{}</code>
+"""
