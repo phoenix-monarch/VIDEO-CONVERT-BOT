@@ -1,6 +1,5 @@
 from config import Config 
-from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, Filters, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserNotParticipant
 from translation import Translation
 
@@ -11,7 +10,7 @@ LINK = "https://telegram.dog/Mo_Tech_YT"
 
 
 
-@Client.on_message(filters.private & filters.command("password"))
+@Client.on_message(Filters.private & Filters.command("password"))
 async def password(motech, update):
     update_channel = UPDATE_CHANNEL
     if update_channel:
