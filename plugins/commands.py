@@ -40,13 +40,13 @@ async def password(motech, m):
     update_channel = UPDATE_CHANNEL
     if update_channel:
         try:
-            user = await motech.get_chat_member(update_channel, update.chat.id)
+            user = await motech.get_chat_member(update_channel, m.chat.id)
             if user.status == "kicked out":
-               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
+               await m.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 😜**")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
-            await update.reply_text(
+            # await m.reply_text(f"Join @{Channel User Name} To Use Me") From Motech.py
+            await m.reply_text(
                 text="First Join My Update Channel Then Will Get Password",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="🔔 Join My Update Channel 🔔", url=f"t.me/{UPDATE_CHANNEL}")],
@@ -54,10 +54,10 @@ async def password(motech, m):
             )
             return
         except Exception:
-            await update.reply_text(f"@{UPDATE_CHANNEL}")
+            await m.reply_text(f"@{UPDATE_CHANNEL}")
             return  
     reply_markup =  PASS_BUTTON
-    await update.reply_text(
+    await m.reply_text(
         text=Translation.PASSWORD.format(m.from_user.first_name, PASS_TEXT),
         disable_web_page_preview=True,
         reply_markup=reply_markup
