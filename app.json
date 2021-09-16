@@ -24,9 +24,19 @@
       "description": "Your name like @Mrk_YT",
       "value": "@Mrk_YT"
     },
-    "BOT_PASSWORD": {
+    "SET_PASSWORD": {
       "description": "Password for using this bot. If you don't set any password bot can be used as public",
       "value": "",
+      "required": false
+    },
+    "SHOW_PASSOWRD": {
+      "description": "Show Passowrd",
+      "value": "",
+      "required": false
+    },
+    "UPDATE_CHANNEL": {
+      "description": "Your Update Channel Username ( With Out @)",
+      "value": "Mo_Tech_YT",
       "required": false
     },
     "APP_ID": {
