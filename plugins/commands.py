@@ -16,7 +16,7 @@ PASS_TEXT=Config.PASS_TEXT
 my_father = "https://t.me/{}".format(Config.USER_NAME[1:])
 support = "https://telegram.dog/Mo_Tech_YT"
 
-LINK = "https://telegram.dog/Mo_Tech_YT"
+LINK = "https://youtu.be/hqg0snNNgr4"
 
 BUTTON = InlineKeyboardMarkup([[
          InlineKeyboardButton("My Father 👨‍💻", url=my_father),
