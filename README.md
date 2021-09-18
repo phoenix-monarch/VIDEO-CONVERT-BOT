@@ -10,7 +10,12 @@ This repo is the clone of [Convert bot](https://telegram.dog/mt_convert_bot) the
 
 
 ## How to create your own bot
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/MT-convert-bot/tree/beta)
+
+<a href="https://youtu.be/hqg0snNNgr4"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
+<a href="https://youtu.be/hqg0snNNgr4"><img src="https://img.shields.io/youtube/views/hqg0snNNgr4?style=social">
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://youtu.be/hqg0snNNgr4)
 - 👆 Press the deploy button.
 
 ## COMMANDS
